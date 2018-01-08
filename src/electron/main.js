@@ -13,7 +13,7 @@ app.on('window-all-closed', function() {
 const debug = process.env.NODE_ENV === 'development';
 
 app.on('ready', function() {
-  if (debug) BrowserWindow.addDevToolsExtension("/Users/denversmith/redux-dev-tools/");
+  if (debug) BrowserWindow.addDevToolsExtension("/mnt/Data/repositories/redux-devtools-extension/build/extension");
   mainWindow = new BrowserWindow({
     width: 1000,
     height: 700

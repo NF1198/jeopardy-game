@@ -17,6 +17,10 @@ To package the app for OSX:
 
 ```electron-packager ./jeopardy Jeopardy --version 1.2.4 --platform=darwin --out=[insert output path here] --arch=all --ignore="(node_modules)"```
 
+To package the app for Linux: 
+
+```electron-packager ./jeopardy Jeopardy --version 1.2.4 --platform=darwin --out=[insert output path here] --arch=all --ignore="(node_modules)"```
+
 # Testing
 
 First unzip the zip file in dist/ and then run

@@ -5,7 +5,7 @@
   "main": "./src/electron/main.js",
   "scripts": {
     "build": "webpack",
-    "watch": "./node_modules/.bin/webpack-dev-server --host 0.0.0.0 --port 3000",
+    "watch": "./node_modules/.bin/webpack-dev-server --host 127.0.0.1 --port 3000",
     "start": "electron .",
     "watch-and-start": "webpack -w & electron .",
     "start-dev": "cross-env NODE_ENV=development electron .",
@@ -21,6 +21,7 @@
   "author": "Denver Smith",
   "license": "MIT",
   "dependencies": {
+    "classnames": "^2.2.5",
     "electron": "^1.7.9",
     "react": "^15.4.1",
     "react-addons-css-transition-group": "^15.4.1",
